@@ -1,48 +1,36 @@
-# Beautify with Vuetify
+# Vuetify Dashboard
 
-Learn how to create beautiful web apps with Vuetify, a component framework that is built according to [Google's Material Design](https://material.io/design/) specifications.
+This application is a dashboard application built entirely with Vue + Vuetify. 
 
-## Course Milestones
+## Getting Started
 
-We encourage you to code along with us as you go through the course on Vue Mastery. These are the tags that represent milestones throughout the course. In addition, code commits are created in a way that should allow you to choose snapshots in case there's any confusion.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-| Lesson                              | Start Code                                                                                | Finished Code                                                                               |
-| ----------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| Getting Started with Vuetify        | [Lesson 1 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-1-BEGIN)   | [Lesson 1 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-1-BEGIN)    |
-| Components (Pt. 1)                  | [Lesson 2 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-BEGIN)   | [Lesson 2 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-2-FINISH)   |
-| Components (Pt. 2)                  | [Lesson 3 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3-BEGIN)   | [Lesson 3 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3-FINISH)   |
-| Components (Pt. 2) - Code Challenge | [Lesson 3 Begin](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3CC-BEGIN) | [Lesson 3 Finish](https://github.com/Code-Pop/beautify-with-vuetify/tree/Lesson-3CC-FINISH) |
+### Installing
 
-## Setup
+A step by step series of examples that tell you how to get a development env running
+
+First, run npm install to get all the required dependencies installed
 
 ```
-yarn install
+$ npm install
 ```
 
-### Compiles and hot-reloads for development
+Next, change into the directory, and run the serve command to start the development server
 
 ```
-yarn run serve
+$ cd 'your-directory-here'
+$ npm run serve
 ```
 
-### Compiles and minifies for production
+## Deployment
 
-```
-yarn run build
-```
+All the required configuration is already present in the files for a basic deployement to Heroku.
+Heroku will install dependencies, run the postinstall command (which builds the dist folder),
+and then our basic express server will statically serve the built folder.
 
-### Run your tests
+## Built With
 
-```
-yarn run test
-```
+[Vue](https://vuejs.org/v2/guide/)
+[Vuetify](https://vuetifyjs.com/en/getting-started/quick-start/)
 
-### Lints and fixes files
-
-```
-yarn run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
